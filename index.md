@@ -41,12 +41,11 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
 
 <table>
   <tr>
-    <th>Original</th>
-    <th>Music2Latent</th>
-    <th>Musika</th>
-    <th>LatMusic</th>
+    <th style="width: 14.28%;">Original</th> <!-- 100% divided by 7 columns -->
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
   </tr>
-  <!-- Row 1 for Baselines -->
   <tr>
     <td>
       <audio src="real/-0SdAVK79lg.mp3" controls></audio>
@@ -56,14 +55,19 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
     </td>
     <td>
       <audio src="musika/-0SdAVK79lg.mp3" controls></audio>
-    </td> 
+    </td>
     <td>
       <audio src="latmusic/-0SdAVK79lg.mp3" controls></audio>
-    </td> 
-  </tr> 
-  <!-- Row 2 for Baselines -->
-  <tr> 
-    <td></td>
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%;"></th> <!-- 100% divided by 7 columns -->
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td> <!-- Empty cell to maintain structure -->
     <td>
       <audio src="mousaiv2/-0SdAVK79lg.mp3" controls></audio>
     </td>
@@ -73,44 +77,46 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
     <td>
       <audio src="dac/-0SdAVK79lg.mp3" controls></audio>
     </td>
-  </tr> 
-  <!-- Repeat for other samples -->
-  <tr>
-    <th>Original</th>
-    <th>Music2Latent</th>
-    <th>Musika</th>
-    <th>LatMusic</th>
   </tr>
-  <!-- Row 1 for Baselines -->
+
+  <!-- Repeat the structure for other samples -->
+
+  <tr>
+    <th style="width: 14.28%;">Original</th>
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
   <tr>
     <td>
       <audio src="real/-0vPFx-wRRI.mp3" controls></audio>
     </td>
     <td>
-      <audio src="music2latent/-0vPFx-wRRI.mp3" controls></audio>
-    </td> 
+      <audio src="music2latent/-0vPFx-wRRI.mp3" controls></audio> 
+    </td>
     <td>
-      <audio src="musika/-0vPFx-wRRI.mp3" controls></audio>
+      <audio src="musika/-0vPFx-wRRI.mp3" controls></audio> 
     </td>
     <td>
       <audio src="latmusic/-0vPFx-wRRI.mp3" controls></audio> 
-    </td> 
+    </td>
   </tr>
-  <!-- Row 2 for Baselines -->
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-0vPFx-wRRI.mp3" controls></audio>
+      <audio src="mousaiv2/-0vPFx-wRRI.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-0vPFx-wRRI.mp3" controls></audio>
+      <audio src="mousaiv3/-0vPFx-wRRI.mp3" controls></audio> 
     </td>
-    <td>
-      <audio src="dac/-0vPFx-wRRI.mp3" controls></audio> 
+    <td> 
+      <audio src="dac/-0vPFx-wRRI.mp3" controls></audio>
     </td> 
-  </tr> 
-  <!-- And so on... -->
-</table>
+  </tr>
+
+  <!-- ... and so on for the rest of the samples ... -->
+
+</table> 
 
 <!-- <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
   <div>
