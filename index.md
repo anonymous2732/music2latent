@@ -2,6 +2,19 @@
 layout: page
 ---
 
+<style>
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+audio {
+  width: 100%;
+  max-width: 300px;
+}
+</style>
+
+
 # Music2Latent: Consistency Autoencoders for Latent Audio Compression
 
 **Abstract**  
