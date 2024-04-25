@@ -61,7 +61,7 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
     </td>
   </tr>
   <tr>
-    <th style="width: 14.28%; border-top: 0px;"></th> <!-- 100% divided by 7 columns -->
+    <th style="width: 14.28%; border-bottom: 0px;"></th> <!-- 100% divided by 7 columns -->
     <th style="width: 14.28%;">Mousaiv2</th>
     <th style="width: 14.28%;">Mousaiv3</th>
     <th style="width: 14.28%;">DAC</th>
@@ -102,7 +102,7 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
     </td>
   </tr>
   <tr>
-    <th style="width: 14.28%;"></th> <!-- 100% divided by 7 columns -->
+    <th style="width: 14.28%; border-bottom: 0px;"></th> <!-- 100% divided by 7 columns -->
     <th style="width: 14.28%;">Mousaiv2</th>
     <th style="width: 14.28%;">Mousaiv3</th>
     <th style="width: 14.28%;">DAC</th>
