@@ -39,7 +39,7 @@ The input sample is first encoded into a sequence of latent vectors. The latents
 
 We compare the reconstructions of Music2Latent against baselines for MusicCaps evaluation samples.
 
-<table>
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
   <tr>
     <th style="width: 14.28%;">Original</th> <!-- 100% divided by 7 columns -->
     <th style="width: 14.28%;">Music2Latent</th>
