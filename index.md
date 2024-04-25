@@ -2,6 +2,101 @@
 layout: page
 ---
 
+<style>
+Got it. To achieve the layout you described, where baselines are split into two rows for each real sample, we'll need to modify the table structure slightly and add some CSS for styling.
+Modified Table Structure:
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Music2Latent</th>
+    <th>Musika</th>
+    <th>LatMusic</th>
+  </tr>
+  <!-- Row 1 for Baselines -->
+  <tr>
+    <td>
+      <audio src="real/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="music2latent/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="musika/-0SdAVK79lg.mp3" controls></audio>
+    </td> 
+    <td>
+      <audio src="latmusic/-0SdAVK79lg.mp3" controls></audio>
+    </td> 
+  </tr> 
+  <!-- Row 2 for Baselines -->
+  <tr> 
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="mousaiv3/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="dac/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+  </tr> 
+  <!-- Repeat for other samples -->
+  <tr>
+    <th>Original</th>
+    <th>Music2Latent</th>
+    <th>Musika</th>
+    <th>LatMusic</th>
+  </tr>
+  <!-- Row 1 for Baselines -->
+  <tr>
+    <td>
+      <audio src="real/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="music2latent/-0vPFx-wRRI.mp3" controls></audio>
+    </td> 
+    <td>
+      <audio src="musika/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="latmusic/-0vPFx-wRRI.mp3" controls></audio> 
+    </td> 
+  </tr>
+  <!-- Row 2 for Baselines -->
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="mousaiv3/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="dac/-0vPFx-wRRI.mp3" controls></audio> 
+    </td> 
+  </tr> 
+  <!-- And so on... -->
+</table>
+Use code with caution.
+Html
+CSS Styling (Optional):
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+} 
+
+/* Style for the empty cells in the second row */
+tr:nth-child(even) td:first-child { 
+  border: none; /* Remove border for empty cells */
+  padding: 0;   /* Remove padding for empty cells */
+}
+</style>
 
 # Music2Latent: Consistency Autoencoders for Latent Audio Compression
 
@@ -21,43 +116,78 @@ The input sample is first encoded into a sequence of latent vectors. The latents
 
 We compare the reconstructions of Music2Latent against baselines for MusicCaps evaluation samples.
 
-
-{% for sample in site.static_files %}
-  {% if sample.path contains '/real/' %}
-    {{ sample.name | replace: '.mp3', '' }}
-    
-      
-        Original
-        
-      
-      
-        Music2Latent
-        
-      
-      
-        Musika
-        
-      
-      
-        LatMusic
-        
-       
-      
-        Mousaiv2
-        
-      
-      
-        Mousaiv3
-        
-      
-      
-        DAC
-        
-      
-    
-    
-  {% endif %}
-{% endfor %}
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Music2Latent</th>
+    <th>Musika</th>
+    <th>LatMusic</th>
+  </tr>
+  <!-- Row 1 for Baselines -->
+  <tr>
+    <td>
+      <audio src="real/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="music2latent/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="musika/-0SdAVK79lg.mp3" controls></audio>
+    </td> 
+    <td>
+      <audio src="latmusic/-0SdAVK79lg.mp3" controls></audio>
+    </td> 
+  </tr> 
+  <!-- Row 2 for Baselines -->
+  <tr> 
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="mousaiv3/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="dac/-0SdAVK79lg.mp3" controls></audio>
+    </td>
+  </tr> 
+  <!-- Repeat for other samples -->
+  <tr>
+    <th>Original</th>
+    <th>Music2Latent</th>
+    <th>Musika</th>
+    <th>LatMusic</th>
+  </tr>
+  <!-- Row 1 for Baselines -->
+  <tr>
+    <td>
+      <audio src="real/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="music2latent/-0vPFx-wRRI.mp3" controls></audio>
+    </td> 
+    <td>
+      <audio src="musika/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="latmusic/-0vPFx-wRRI.mp3" controls></audio> 
+    </td> 
+  </tr>
+  <!-- Row 2 for Baselines -->
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="mousaiv3/-0vPFx-wRRI.mp3" controls></audio>
+    </td>
+    <td>
+      <audio src="dac/-0vPFx-wRRI.mp3" controls></audio> 
+    </td> 
+  </tr> 
+  <!-- And so on... -->
+</table>
 
 <!-- <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
   <div>
