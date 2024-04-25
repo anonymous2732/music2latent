@@ -13,11 +13,7 @@ The input sample is first encoded into a sequence of latent vectors. The latents
 
 <img src="imgs/ConsistencyAutoArch.png">
 
-<!-- ## Mel-Spectrograms of Reconstructions
 
-We show mel-spectrograms of example input mixes and separated outputs. For each separation from 0 to 15 the Generator is conditioned on the corresponding quantized embedding. By cross-referencing this visualization with the clustering histogram shown below, it is possible to recognize specific sources.
-
-<img src="spectrograms.png">   -->
 
 
 ## Audio Examples
@@ -114,3 +110,10 @@ Cluster 14 (Vocals)
 
 
  -->
+
+
+ <!-- ## Mel-Spectrograms of Reconstructions
+
+We show mel-spectrograms of example input mixes and separated outputs. For each separation from 0 to 15 the Generator is conditioned on the corresponding quantized embedding. By cross-referencing this visualization with the clustering histogram shown below, it is possible to recognize specific sources.
+
+<img src="spectrograms.png">   -->
