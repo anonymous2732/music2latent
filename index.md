@@ -21,6 +21,44 @@ The input sample is first encoded into a sequence of latent vectors. The latents
 
 We compare the reconstructions of Music2Latent against baselines for MusicCaps evaluation samples.
 
+
+{% for sample in site.static_files %}
+  {% if sample.path contains '/real/' %}
+    <h3 id="{{ sample.name | replace: '.mp3', '' }}">{{ sample.name | replace: '.mp3', '' }}</h3>
+    <table>
+      <tr>
+        <th>Original</th>
+        <td><audio src="{{ sample.path }}" controls></audio></td>
+      </tr>
+      <tr>
+        <th>Music2Latent</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/music2latent/' }}" controls></audio></td>
+      </tr>
+      <tr>
+        <th>Musika</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/musika/' }}" controls></audio></td>
+      </tr>
+      <tr>
+        <th>LatMusic</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/latmusic/' }}" controls></audio></td>
+      </tr> 
+      <tr>
+        <th>Mousaiv2</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/mousaiv2/' }}" controls></audio></td>
+      </tr>
+      <tr>
+        <th>Mousaiv3</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/mousaiv3/' }}" controls></audio></td>
+      </tr>
+      <tr>
+        <th>DAC</th>
+        <td><audio src="{{ sample.path | replace: '/real/', '/dac/' }}" controls></audio></td>
+      </tr>
+    </table>
+    <br>
+  {% endif %}
+{% endfor %}
+
 <!-- <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
   <div>
     <audio controls>
