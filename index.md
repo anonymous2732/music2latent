@@ -30,7 +30,7 @@ Efficient audio waveform representations in a compressed continuous latent space
 ## Architecture
 The input sample is first encoded into a sequence of latent vectors. The latents are then upsampled with a decoder model. The consistency model is trained via consistency training, with an additional information leakage coming from the cross connections.
 
-<img src="imgs/ConsistencyAutoArch.pdf">
+<img src="imgs/ConsistencyAutoArch.png">
 
 
 
@@ -836,16 +836,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -857,13 +857,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-OUIEnuNd1I.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-OUIEnuNd1I.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -886,16 +886,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -907,13 +907,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-Q9MTRXS4bE.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-Q9MTRXS4bE.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -936,16 +936,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -957,64 +957,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-QuWdnmn-kM.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
-    </td> 
-  </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <tr>
-    <th style="width: 14.28%;">Original</th> 
-    <th style="width: 14.28%;">Music2Latent</th>
-    <th style="width: 14.28%;">Musika</th>
-    <th style="width: 14.28%;">LatMusic</th>
-  </tr>
-  <tr>
-    <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-  </tr>
-  <tr>
-    <th style="width: 14.28%; border-bottom: 0px;"></th> 
-    <th style="width: 14.28%;">Mousaiv2</th>
-    <th style="width: 14.28%;">Mousaiv3</th>
-    <th style="width: 14.28%;">DAC</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-QuWdnmn-kM.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1038,16 +987,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-R0267o4lLk.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-R0267o4lLk.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-R0267o4lLk.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-R0267o4lLk.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1059,13 +1008,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-R0267o4lLk.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-R0267o4lLk.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-R0267o4lLk.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1089,16 +1038,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-SD43H5B5hE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-SD43H5B5hE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-SD43H5B5hE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-SD43H5B5hE.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1110,13 +1059,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-SD43H5B5hE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-SD43H5B5hE.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-SD43H5B5hE.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1140,16 +1089,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1161,16 +1110,15 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-W5c6CeUMPE.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-W5c6CeUMPE.mp3" controls></audio>
     </td> 
   </tr>
-
 
 
 
@@ -1192,16 +1140,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1213,63 +1161,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-XN0NtrnfMY.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
-    </td> 
-  </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-  <tr>
-    <th style="width: 14.28%;">Original</th> 
-    <th style="width: 14.28%;">Music2Latent</th>
-    <th style="width: 14.28%;">Musika</th>
-    <th style="width: 14.28%;">LatMusic</th>
-  </tr>
-  <tr>
-    <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-  </tr>
-  <tr>
-    <th style="width: 14.28%; border-bottom: 0px;"></th> 
-    <th style="width: 14.28%;">Mousaiv2</th>
-    <th style="width: 14.28%;">Mousaiv3</th>
-    <th style="width: 14.28%;">DAC</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
-    </td>
-    <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-XN0NtrnfMY.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1294,16 +1192,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-YATTKBtmRA.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-YATTKBtmRA.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-YATTKBtmRA.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-YATTKBtmRA.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1315,13 +1213,115 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-YATTKBtmRA.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-YATTKBtmRA.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-YATTKBtmRA.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-_OzT7Xyvok.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-_OzT7Xyvok.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-cLzki-B06o.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-cLzki-B06o.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1345,16 +1345,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1366,13 +1366,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-cQ-jUTEgck.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-cQ-jUTEgck.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1397,16 +1397,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-eDAoheZrY8.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1418,13 +1418,13 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-eDAoheZrY8.mp3" controls></audio>
     </td> 
   </tr>
 
@@ -1447,16 +1447,16 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="real/-f1DNyngKVY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="music2latent/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="music2latent/-f1DNyngKVY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="musika/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="musika/-f1DNyngKVY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="latmusic/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="latmusic/-f1DNyngKVY.mp3" controls></audio> 
     </td>
   </tr>
   <tr>
@@ -1468,16 +1468,366 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   <tr>
     <td></td>
     <td>
-      <audio src="mousaiv2/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv2/-f1DNyngKVY.mp3" controls></audio> 
     </td>
     <td>
-      <audio src="mousaiv3/-CUp_Tmg2Y0.mp3" controls></audio> 
+      <audio src="mousaiv3/-f1DNyngKVY.mp3" controls></audio> 
     </td>
     <td> 
-      <audio src="dac/-CUp_Tmg2Y0.mp3" controls></audio>
+      <audio src="dac/-f1DNyngKVY.mp3" controls></audio>
     </td> 
   </tr>
-  
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-i9gpG3vPwA.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-i9gpG3vPwA.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-i9uQMysy_A.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-i9uQMysy_A.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-jpbCWcz2pk.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-jpbCWcz2pk.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-m5ZlWziIeA.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-m5ZlWziIeA.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-nlkWWphiaM.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-nlkWWphiaM.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-r7iz-9v9bA.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-r7iz-9v9bA.mp3" controls></audio>
+    </td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <th style="width: 14.28%;">Original</th> 
+    <th style="width: 14.28%;">Music2Latent</th>
+    <th style="width: 14.28%;">Musika</th>
+    <th style="width: 14.28%;">LatMusic</th>
+  </tr>
+  <tr>
+    <td>
+      <audio src="real/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="music2latent/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="musika/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="latmusic/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 14.28%; border-bottom: 0px;"></th> 
+    <th style="width: 14.28%;">Mousaiv2</th>
+    <th style="width: 14.28%;">Mousaiv3</th>
+    <th style="width: 14.28%;">DAC</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <audio src="mousaiv2/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+    <td>
+      <audio src="mousaiv3/-tKZOl4q1Kw.mp3" controls></audio> 
+    </td>
+    <td> 
+      <audio src="dac/-tKZOl4q1Kw.mp3" controls></audio>
+    </td> 
+  </tr>
+
 </table>
 
 
