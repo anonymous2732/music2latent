@@ -2,18 +2,6 @@
 layout: page
 ---
 
-<style>
-table {
-  width: 100%;
-  table-layout: fixed;
-}
-
-audio {
-  width: 100%;
-  max-width: 300px;
-}
-</style>
-
 
 # Music2Latent: Consistency Autoencoders for Latent Audio Compression
 
@@ -33,7 +21,398 @@ The input sample is first encoded into a sequence of latent vectors. The latents
 
 We compare the reconstructions of Music2Latent against baselines for MusicCaps evaluation samples.
 
-| Original | **Music2Latent** | Musika | LatMusic | Mousaiv2 | Mousaiv3 | | DAC |
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+  <div>
+    <audio controls>
+      <source src="real/-0SdAVK79lg.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-0SdAVK79lg.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-0SdAVK79lg.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-0SdAVK79lg.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-0SdAVK79lg.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-0vPFx-wRRI.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-0vPFx-wRRI.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-0vPFx-wRRI.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-0vPFx-wRRI.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-0vPFx-wRRI.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-1OlgJWehn8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-1OlgJWehn8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-1OlgJWehn8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-1OlgJWehn8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-1OlgJWehn8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-4NLarMj4xU.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-4NLarMj4xU.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-4NLarMj4xU.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-4NLarMj4xU.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-4NLarMj4xU.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-5xOcMJpTUk.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-5xOcMJpTUk.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-5xOcMJpTUk.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-5xOcMJpTUk.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-5xOcMJpTUk.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-7wUQP6G5EQ.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-7wUQP6G5EQ.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-7wUQP6G5EQ.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-7wUQP6G5EQ.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-7wUQP6G5EQ.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-8cgbhIR_pw.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-8cgbhIR_pw.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-8cgbhIR_pw.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-8cgbhIR_pw.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-8cgbhIR_pw.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-Bu7YaslRW0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-Bu7YaslRW0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-Bu7YaslRW0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-Bu7YaslRW0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-Bu7YaslRW0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-ByoSbgzr4M.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-ByoSbgzr4M.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-ByoSbgzr4M.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-ByoSbgzr4M.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-ByoSbgzr4M.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-CUp_Tmg2Y0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-CUp_Tmg2Y0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-CUp_Tmg2Y0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-CUp_Tmg2Y0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-CUp_Tmg2Y0.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-DeAdhYKbGE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Original</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="music2latent/-DeAdhYKbGE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Music2Latent</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="musika/-DeAdhYKbGE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Musika</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="latmusic/-DeAdhYKbGE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>LatMusic</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="mousaiv2/-DeAdhYKbGE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>Mousaiv2</p>
+  </div>
+  <div>
+    <audio controls>
+      <source src="real/-Dtir74TiUM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-Dtir74TiUM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-Dtir74TiUM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-Dtir74TiUM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-Dtir74TiUM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-FEPOSP7ay0.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-FEPOSP7ay0.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-FEPOSP7ay0.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-FEPOSP7ay0.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-FEPOSP7ay0.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-FFx68qSAuY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-FFx68qSAuY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-FFx68qSAuY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-FFx68qSAuY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-FFx68qSAuY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-FlvaZQOr2I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-FlvaZQOr2I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-FlvaZQOr2I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-FlvaZQOr2I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-FlvaZQOr2I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-Gf4Ihv1zwc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-Gf4Ihv1zwc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-Gf4Ihv1zwc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-Gf4Ihv1zwc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-Gf4Ihv1zwc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-O9mnfC61Ac.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-O9mnfC61Ac.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-O9mnfC61Ac.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-O9mnfC61Ac.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-O9mnfC61Ac.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-OAyRsvFGgc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-OAyRsvFGgc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-OAyRsvFGgc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-OAyRsvFGgc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-OAyRsvFGgc.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-OUIEnuNd1I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-OUIEnuNd1I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-OUIEnuNd1I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-OUIEnuNd1I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-OUIEnuNd1I.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-Q9MTRXS4bE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-Q9MTRXS4bE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-Q9MTRXS4bE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-Q9MTRXS4bE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-Q9MTRXS4bE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-QuWdnmn-kM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-QuWdnmn-kM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-QuWdnmn-kM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-QuWdnmn-kM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-QuWdnmn-kM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-R0267o4lLk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-R0267o4lLk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-R0267o4lLk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-R0267o4lLk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-R0267o4lLk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-SD43H5B5hE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-SD43H5B5hE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-SD43H5B5hE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-SD43H5B5hE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-SD43H5B5hE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-W5c6CeUMPE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-W5c6CeUMPE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-W5c6CeUMPE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-W5c6CeUMPE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-W5c6CeUMPE.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-XN0NtrnfMY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-XN0NtrnfMY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-XN0NtrnfMY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-XN0NtrnfMY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-XN0NtrnfMY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-YATTKBtmRA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-YATTKBtmRA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-YATTKBtmRA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-YATTKBtmRA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-YATTKBtmRA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-_OzT7Xyvok.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-_OzT7Xyvok.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-_OzT7Xyvok.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-_OzT7Xyvok.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-_OzT7Xyvok.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-cLzki-B06o.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-cLzki-B06o.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-cLzki-B06o.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-cLzki-B06o.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-cLzki-B06o.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-cQ-jUTEgck.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-cQ-jUTEgck.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-cQ-jUTEgck.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-cQ-jUTEgck.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-cQ-jUTEgck.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-eDAoheZrY8.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-eDAoheZrY8.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-eDAoheZrY8.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-eDAoheZrY8.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-eDAoheZrY8.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-f1DNyngKVY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-f1DNyngKVY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-f1DNyngKVY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-f1DNyngKVY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-f1DNyngKVY.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-i9gpG3vPwA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-i9gpG3vPwA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-i9gpG3vPwA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-i9gpG3vPwA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-i9gpG3vPwA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-i9uQMysy_A.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-i9uQMysy_A.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-i9uQMysy_A.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-i9uQMysy_A.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-i9uQMysy_A.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-jpbCWcz2pk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-jpbCWcz2pk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-jpbCWcz2pk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-jpbCWcz2pk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-jpbCWcz2pk.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-m5ZlWziIeA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-m5ZlWziIeA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-m5ZlWziIeA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-m5ZlWziIeA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-m5ZlWziIeA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-nlkWWphiaM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-nlkWWphiaM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-nlkWWphiaM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-nlkWWphiaM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-nlkWWphiaM.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-r7iz-9v9bA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-r7iz-9v9bA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-r7iz-9v9bA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-r7iz-9v9bA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-r7iz-9v9bA.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> <div> <audio controls> <source src="real/-tKZOl4q1Kw.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Original</p> </div> <div> <audio controls> <source src="music2latent/-tKZOl4q1Kw.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Music2Latent</p> </div> <div> <audio controls> <source src="musika/-tKZOl4q1Kw.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Musika</p> </div> <div> <audio controls> <source src="latmusic/-tKZOl4q1Kw.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>LatMusic</p> </div> <div> <audio controls> <source src="mousaiv2/-tKZOl4q1Kw.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio> <p>Mousaiv2</p> </div> </div>
+
+
+<!-- | Original | **Music2Latent** | Musika | LatMusic | Mousaiv2 | Mousaiv3 | | DAC |
 |------|-------------------|--------|----------|----------|----------|--|-----|
 | <audio src="real/-0SdAVK79lg.mp3" controls></audio> | <audio src="music2latent/-0SdAVK79lg.mp3" controls></audio> | <audio src="musika/-0SdAVK79lg.mp3" controls></audio> | <audio src="latmusic/-0SdAVK79lg.mp3" controls></audio> | <audio src="mousaiv2/-0SdAVK79lg.mp3" controls></audio> | <audio src="mousaiv3/-0SdAVK79lg.mp3" controls></audio> | | <audio src="dac/-0SdAVK79lg.mp3" controls></audio> |
 | <audio src="real/-0vPFx-wRRI.mp3" controls></audio> | <audio src="music2latent/-0vPFx-wRRI.mp3" controls></audio> | <audio src="musika/-0vPFx-wRRI.mp3" controls></audio> | <audio src="latmusic/-0vPFx-wRRI.mp3" controls></audio> | <audio src="mousaiv2/-0vPFx-wRRI.mp3" controls></audio> | <audio src="mousaiv3/-0vPFx-wRRI.mp3" controls></audio> | | <audio src="dac/-0vPFx-wRRI.mp3" controls></audio> |
@@ -72,7 +451,7 @@ We compare the reconstructions of Music2Latent against baselines for MusicCaps e
 | <audio src="real/-m5ZlWziIeA.mp3" controls></audio> | <audio src="music2latent/-m5ZlWziIeA.mp3" controls></audio> | <audio src="musika/-m5ZlWziIeA.mp3" controls></audio> | <audio src="latmusic/-m5ZlWziIeA.mp3" controls></audio> | <audio src="mousaiv2/-m5ZlWziIeA.mp3" controls></audio> | <audio src="mousaiv3/-m5ZlWziIeA.mp3" controls></audio> | | <audio src="dac/-m5ZlWziIeA.mp3" controls></audio> |
 | <audio src="real/-nlkWWphiaM.mp3" controls></audio> | <audio src="music2latent/-nlkWWphiaM.mp3" controls></audio> | <audio src="musika/-nlkWWphiaM.mp3" controls></audio> | <audio src="latmusic/-nlkWWphiaM.mp3" controls></audio> | <audio src="mousaiv2/-nlkWWphiaM.mp3" controls></audio> | <audio src="mousaiv3/-nlkWWphiaM.mp3" controls></audio> | | <audio src="dac/-nlkWWphiaM.mp3" controls></audio> |
 | <audio src="real/-r7iz-9v9bA.mp3" controls></audio> | <audio src="music2latent/-r7iz-9v9bA.mp3" controls></audio> | <audio src="musika/-r7iz-9v9bA.mp3" controls></audio> | <audio src="latmusic/-r7iz-9v9bA.mp3" controls></audio> | <audio src="mousaiv2/-r7iz-9v9bA.mp3" controls></audio> | <audio src="mousaiv3/-r7iz-9v9bA.mp3" controls></audio> | | <audio src="dac/-r7iz-9v9bA.mp3" controls></audio> |
-| <audio src="real/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="music2latent/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="musika/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="latmusic/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="mousaiv2/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="mousaiv3/-tKZOl4q1Kw.mp3" controls></audio> | | <audio src="dac/-tKZOl4q1Kw.mp3" controls></audio> |
+| <audio src="real/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="music2latent/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="musika/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="latmusic/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="mousaiv2/-tKZOl4q1Kw.mp3" controls></audio> | <audio src="mousaiv3/-tKZOl4q1Kw.mp3" controls></audio> | | <audio src="dac/-tKZOl4q1Kw.mp3" controls></audio> | -->
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
 
