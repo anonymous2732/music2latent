@@ -12,14 +12,16 @@ We introduce Music2Latent, an audio autoencoder that overcomes these limitations
 We demonstrate that Music2Latent outperforms existing continuous audio autoencoders in sound quality and reconstruction accuracy on standard metrics while achieving competitive performance on downstream MIR tasks using its latent representations. To our knowledge, this represents the first successful attempt at training an end-to-end consistency autoencoder model.
 
 
-## Mel-Spectrograms of Reconstructions
+<!-- ## Mel-Spectrograms of Reconstructions
 
-<!-- We show mel-spectrograms of example input mixes and separated outputs. For each separation from 0 to 15 the Generator is conditioned on the corresponding quantized embedding. By cross-referencing this visualization with the clustering histogram shown below, it is possible to recognize specific sources.
+We show mel-spectrograms of example input mixes and separated outputs. For each separation from 0 to 15 the Generator is conditioned on the corresponding quantized embedding. By cross-referencing this visualization with the clustering histogram shown below, it is possible to recognize specific sources.
 
 <img src="spectrograms.png">   -->
 
 
 ## Audio Examples
+
+We compare the reconstructions of Music2Latent against baselines for MusicCaps evaluation samples.
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
 
