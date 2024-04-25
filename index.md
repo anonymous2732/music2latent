@@ -24,7 +24,7 @@ Efficient audio waveform representations in a compressed continuous latent space
 ## Architecture
 The input sample is first encoded into a sequence of latent vectors. The latents are then upsampled with a decoder model. The consistency model is trained via consistency training, with an additional information leakage coming from the cross connections.
 
-<img src="imgs/ConsistencyAutoArch.png">
+<img src="imgs/ConsistencyAutoArch.pdf">
 
 
 
