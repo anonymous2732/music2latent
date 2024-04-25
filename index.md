@@ -1345,58 +1345,6 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
   </tr>
   <tr>
     <td>
-      <audio src="real/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="music2latent/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="musika/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="latmusic/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-  </tr>
-  <tr>
-    <th style="width: 14.28%; border-bottom: 0px;"></th> 
-    <th style="width: 14.28%;">Mousaiv2</th>
-    <th style="width: 14.28%;">Mousaiv3</th>
-    <th style="width: 14.28%;">DAC</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <audio src="mousaiv2/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="mousaiv3/-cQ-jUTEgck.mp3" controls></audio> 
-    </td>
-    <td> 
-      <audio src="dac/-cQ-jUTEgck.mp3" controls></audio>
-    </td> 
-  </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <tr>
-    <th style="width: 14.28%;">Original</th> 
-    <th style="width: 14.28%;">Music2Latent</th>
-    <th style="width: 14.28%;">Musika</th>
-    <th style="width: 14.28%;">LatMusic</th>
-  </tr>
-  <tr>
-    <td>
       <audio src="real/-eDAoheZrY8.mp3" controls></audio> 
     </td>
     <td>
@@ -1475,56 +1423,6 @@ We also include reconstructions from Descript Audio Codec (DAC): altough not dir
     </td>
     <td> 
       <audio src="dac/-f1DNyngKVY.mp3" controls></audio>
-    </td> 
-  </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-  <tr>
-    <th style="width: 14.28%;">Original</th> 
-    <th style="width: 14.28%;">Music2Latent</th>
-    <th style="width: 14.28%;">Musika</th>
-    <th style="width: 14.28%;">LatMusic</th>
-  </tr>
-  <tr>
-    <td>
-      <audio src="real/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="music2latent/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="musika/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="latmusic/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-  </tr>
-  <tr>
-    <th style="width: 14.28%; border-bottom: 0px;"></th> 
-    <th style="width: 14.28%;">Mousaiv2</th>
-    <th style="width: 14.28%;">Mousaiv3</th>
-    <th style="width: 14.28%;">DAC</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <audio src="mousaiv2/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-    <td>
-      <audio src="mousaiv3/-i9gpG3vPwA.mp3" controls></audio> 
-    </td>
-    <td> 
-      <audio src="dac/-i9gpG3vPwA.mp3" controls></audio>
     </td> 
   </tr>
 
